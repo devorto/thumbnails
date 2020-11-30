@@ -1,0 +1,26 @@
+{
+    "name": "devorto/thumbnails",
+    "description": "Defines the way thumbnails are being handled within an application.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Devorto",
+            "email": "info@devorto.com",
+            "role": "Owner",
+            "homepage": "https://www.devorto.com/"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "ext-imagick": "*",
+        "ext-mbstring": "*",
+        "devorto/images": "^1.0.0",
+        "devorto/routing": "^1.0.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Devorto\\Thumbnails\\": "src"
+        }
+    }
+}
